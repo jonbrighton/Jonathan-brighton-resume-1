@@ -46,10 +46,6 @@ footer {
 .wrapper {
   background: #ffffff;
 }
-header {
-  background:
-
-}
 header h1 {
   padding: .5em 0;
   margin: 0 auto;
@@ -260,14 +256,16 @@ color: black;
 }
 
 .one-fourth-a, .one-fourth-b, .one-fourth-c,.one-fourth-d,.one-fourth-e,.one-fourth-f,.one-fourth-g,.one-fourth-h{
-  min-width:  200px;
-  min-height: 200px;
+  min-width:  350px;
+  min-height: 350px;
   text-align: center;
   border: 4px solid white;
 }
 .one-fourth-a {
   background-color:gray;
-
+  background-image: url("images/html-logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h4{
   background: white;
@@ -278,26 +276,48 @@ h4{
 
 }
 .one-fourth-b {
-  background:#ffcc00;
+  background-color:#ffcc00;
+  background-image: url("images/css-logo.png2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 
 }
 .one-fourth-c {
   background: #6DCBED;
+  background-image: url("images/jquery.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .one-fourth-d {
   background: orange;
+  background-image: url("images/Javascript-shield.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .one-fourth-e {
 background: green;
+background-image: url("images/illustrator.svg.png");
+background-size: cover;
+background-repeat: no-repeat;
 }
 .one-fourth-f {
-  background: yellow;
+  background: white;
+  background-image: url("images/github.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .one-fourth-g {
   background: pink;
+  background-image: url("images/node.js_logo.svg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .one-fourth-h {
   background: aqua;
+  background-image: url("images/Php_logo.svg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /* footer
 ------------------------------------------*/
@@ -331,7 +351,3 @@ footer li{
   color:white;
   text-align: center;
 }
-
-
-/* Contact Page
-------------------------------------------*/
