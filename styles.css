@@ -34,6 +34,7 @@ img {
   top:0;
   background:rgba(238,238,238,0.7);
   width: 100%;
+  z-index:100;
 }
 header,
 .container,
@@ -248,28 +249,62 @@ text-align: center;
 text-align: center;
 background: #464747;
 color:white;
-min-height: 60px;
-padding-top:.5em;
+
+
 }
 .things-i-know h2:hover {background:#E6E7E7  ;
 color: black;
 }
 
 .one-fourth-a, .one-fourth-b, .one-fourth-c,.one-fourth-d,.one-fourth-e,.one-fourth-f,.one-fourth-g,.one-fourth-h{
-  min-width:  350px;
-  min-height: 350px;
+  min-width:  200px;
+  min-height: 200px;
   text-align: center;
   border: 4px solid white;
 }
 .one-fourth-a {
-  background-color:gray;
-  background-image: url("images/html-logo.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color:white;
+  filter:brightness(90%);
+  position:relative;
+  overflow:hidden;
+
 }
+.one-fourth-a img {
+  min-width: 200px;
+  height: 200px;
+}
+
+
+.one-fourth-a h4 {
+  position:absolute;
+  top: -100px;
+  width:100%;
+  text-align: center;
+}
+
+.one-fourth-a h4:hover{
+  background: white;
+}
+.one-fourth-a span {
+  background:#D7DADA;
+  opacity: .9;
+  width:100%;
+  height:0;
+  display:block;
+  transition:1s;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+.one-fourth-a:hover span {
+  height:60%;
+
+}
+
 h4{
   background: white;
-  padding: .5em 1em;
+  padding: .5em 0;
   margin-top: 30%;
   opacity: .9;
   font-size: 25px;
@@ -294,7 +329,13 @@ h4{
   background-image: url("images/Javascript-shield.png");
   background-size: cover;
   background-repeat: no-repeat;
+  transition:1s;
 }
+
+.one-fourth-d:hover {
+  filter: grayscale(100%);
+}
+
 .one-fourth-e {
 background: green;
 background-image: url("images/illustrator.svg.png");
