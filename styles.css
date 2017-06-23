@@ -269,16 +269,17 @@ nav a:hover {
   height: 200px;
 }
 
-.one-fourth-a p,
-.one-fourth-b p,
-.one-fourth-c p,
-.one-fourth-d p,
-.one-fourth-e p,
-.one-fourth-f p,
-.one-fourth-g p,
-.one-fourth-h p {
+.one-fourth-a em,
+.one-fourth-b em,
+.one-fourth-c em,
+.one-fourth-d em,
+.one-fourth-e em,
+.one-fourth-f em,
+.one-fourth-g em,
+.one-fourth-h em {
     position: absolute;
-    top: -100px;
+    top: -150px;
+    left:0;
     width: 100%;
     text-align: center;
     background: white;
@@ -286,7 +287,7 @@ nav a:hover {
     margin-top: 30%;
     font-size: 30px;
 }
-.one-fourth-a p:hover,
+/*.one-fourth-a p:hover,
 .one-fourth-b p:hover,
 .one-fourth-c p:hover,
 .one-fourth-d p:hover,
@@ -295,7 +296,7 @@ nav a:hover {
 .one-fourth-g p:hover,
 .one-fourth-h p:hover {
     background: white;
-}
+}*/
 .one-fourth-a span,
 .one-fourth-b span,
 .one-fourth-c span,
